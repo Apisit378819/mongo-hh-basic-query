@@ -5,7 +5,6 @@ export const ex1Router = Router();
 
 ex1Router.get("/findcherlyn", (req, res) => {
   const result = collection.findOne({ customer_name: "Cherlyn" });
-
   return res.json({ data: result });
 });
 

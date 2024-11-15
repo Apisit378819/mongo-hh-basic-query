@@ -6,6 +6,7 @@ import { ex3Router } from "./exercise-3.js";
 import { ex4Router } from "./exercise-4.js";
 import { ex5Router } from "./exercise-5.js";
 import { ex6Router } from "./exercise-6.js";
+import { ex7Router } from "./exercise-7.js";
 
 const connectionString = "mongodb://127.0.0.1:27017";
 
@@ -46,5 +47,6 @@ app.use("/ex3", ex3Router);
 app.use("/ex4", ex4Router);
 app.use("/ex5", ex5Router);
 app.use("/ex6", ex6Router);
+app.use("/ex7", ex7Router);
 
 // await client.close();
